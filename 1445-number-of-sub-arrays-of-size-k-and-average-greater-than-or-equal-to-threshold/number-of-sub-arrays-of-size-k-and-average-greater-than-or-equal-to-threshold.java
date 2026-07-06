@@ -2,7 +2,7 @@ class Solution {
     public int numOfSubarrays(int[] arr, int k, int threshold) {
         int n = arr.length;
        
-        int s=0,max=0,l=0,x=0,c=0,count=0;
+        int s=0,c=0;
         
         for(int i=0;i<k;i++){
             s += arr[i];

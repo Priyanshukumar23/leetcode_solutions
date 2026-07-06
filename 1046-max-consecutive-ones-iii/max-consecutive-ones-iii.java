@@ -6,7 +6,7 @@ class Solution {
             if(nums[i]==0){
                 cz++;
             }
-            if(cz>k){
+            while(cz>k){
                 if(nums[l]==0)cz--;
                 l++;
             }

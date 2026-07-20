@@ -27,10 +27,10 @@ class Solution {
             TreeNode pr = q2.poll();
             if(cur.val!=pr.val)return false;
             if ((cur.left == null) != (pr.left == null))
-    return false;
+            return false;
 
-if ((cur.right == null) != (pr.right == null))
-    return false;
+            if ((cur.right == null) != (pr.right == null))
+            return false;
             if(cur.left!=null){
                 q1.offer(cur.left);
             }

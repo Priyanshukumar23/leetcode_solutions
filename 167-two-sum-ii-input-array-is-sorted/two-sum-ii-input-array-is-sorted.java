@@ -4,7 +4,7 @@ class Solution {
         int r = n-1;
         int s=0,x=0;
         int l = 0;
-        int[] arr = new int[2];
+ 
         while(l<r){
             s = numbers[l]+numbers[r];
             if(s>target){

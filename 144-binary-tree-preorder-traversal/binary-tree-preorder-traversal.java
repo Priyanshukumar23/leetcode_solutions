@@ -20,6 +20,10 @@ class Solution {
         at.add(root.val);
         at.addAll(preorderTraversal(root.left));
         at.addAll(preorderTraversal(root.right));
+
+        
+       
+
         return at;
     }
 }
